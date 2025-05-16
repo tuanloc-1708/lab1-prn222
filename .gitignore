@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psmdcp
+
+# Entity Framework Core
+Migrations/
+
+# Database files
+*.mdf
+*.ldf
+
+# appsettings secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Others
+*.db
+*.sqlite
+*.bak
+*.tmp
